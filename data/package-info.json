@@ -1,0 +1,1133 @@
+{
+  "_readme": "Package metadata for the GUI. name = short label, desc = what it is, risk = low|medium|high|critical. Key: Android package id.",
+  "com.android.chrome": {
+    "name": "Chrome",
+    "desc": "Google browser. Some apps use it for in-app web pages (Custom Tabs).",
+    "risk": "medium"
+  },
+  "com.android.contacts": {
+    "name": "Contacts",
+    "desc": "Contacts app. On Xiaomi this package is MIUI Contacts.",
+    "risk": "critical"
+  },
+  "com.android.incallui": {
+    "name": "In-call screen",
+    "desc": "The screen shown during phone calls.",
+    "risk": "critical"
+  },
+  "com.android.location.fused": {
+    "name": "Fused location",
+    "desc": "Combines GPS, Wi-Fi and cell data for location.",
+    "risk": "critical"
+  },
+  "com.android.mms": {
+    "name": "Messages",
+    "desc": "SMS/MMS app. On Xiaomi this is MIUI Messages.",
+    "risk": "critical"
+  },
+  "com.android.packageinstaller": {
+    "name": "Package installer",
+    "desc": "Installs and removes APKs.",
+    "risk": "critical"
+  },
+  "com.android.phone": {
+    "name": "Phone",
+    "desc": "Core telephony app.",
+    "risk": "critical"
+  },
+  "com.android.providers.contacts": {
+    "name": "Contacts storage",
+    "desc": "Database provider for contacts.",
+    "risk": "critical"
+  },
+  "com.android.providers.settings": {
+    "name": "Settings storage",
+    "desc": "Database provider for system settings.",
+    "risk": "critical"
+  },
+  "com.android.providers.telephony": {
+    "name": "Telephony storage",
+    "desc": "Database provider for SMS and APN data.",
+    "risk": "critical"
+  },
+  "com.android.server.telecom": {
+    "name": "Telecom service",
+    "desc": "Routes calls between apps and the modem.",
+    "risk": "critical"
+  },
+  "com.android.settings": {
+    "name": "Settings",
+    "desc": "System settings app.",
+    "risk": "critical"
+  },
+  "com.android.systemui": {
+    "name": "System UI",
+    "desc": "Status bar, quick settings, notifications and navigation.",
+    "risk": "critical"
+  },
+  "com.android.vending": {
+    "name": "Google Play Store",
+    "desc": "Installs and updates Android apps.",
+    "risk": "critical"
+  },
+  "com.google.android.gms": {
+    "name": "Google Play services",
+    "desc": "Core Google APIs used by most apps.",
+    "risk": "critical"
+  },
+  "com.google.android.gsf": {
+    "name": "Google Services Framework",
+    "desc": "Account and service plumbing for Google apps.",
+    "risk": "critical"
+  },
+  "com.google.android.packageinstaller": {
+    "name": "Google package installer",
+    "desc": "Installs APKs on newer Android versions.",
+    "risk": "critical"
+  },
+  "com.google.android.webview": {
+    "name": "Android System WebView",
+    "desc": "Renders web content inside other apps.",
+    "risk": "critical"
+  },
+  "com.lbe.security.miui": {
+    "name": "MIUI permission manager",
+    "desc": "Controls app permissions on MIUI.",
+    "risk": "critical"
+  },
+  "com.miui.home": {
+    "name": "MIUI Launcher",
+    "desc": "The home screen and app drawer.",
+    "risk": "critical"
+  },
+  "com.miui.securitycenter": {
+    "name": "MIUI Security",
+    "desc": "App lock, permissions, cleaner, battery and blocklist.",
+    "risk": "critical"
+  },
+  "com.miui.securityadd": {
+    "name": "MIUI Security add-on",
+    "desc": "Part of the Security app. Removing it can bootloop older MIUI.",
+    "risk": "critical"
+  },
+  "com.miui.packageinstaller": {
+    "name": "MIUI package installer",
+    "desc": "MIUI APK installer.",
+    "risk": "critical"
+  },
+  "com.miui.powerkeeper": {
+    "name": "MIUI Power Keeper",
+    "desc": "Aggressive MIUI battery and performance manager.",
+    "risk": "critical"
+  },
+  "com.miui.daemon": {
+    "name": "MIUI Daemon",
+    "desc": "Background daemon used by several MIUI features.",
+    "risk": "critical"
+  },
+  "com.miui.contentcatcher": {
+    "name": "Content Catcher",
+    "desc": "Text and image recognition when long-pressing on screen.",
+    "risk": "critical"
+  },
+  "com.miui.wallpaper": {
+    "name": "MIUI Wallpaper",
+    "desc": "Wallpaper picker and rendering service.",
+    "risk": "critical"
+  },
+  "com.miui.miwallpaper": {
+    "name": "Mi Wallpaper",
+    "desc": "System wallpaper provider. Removing breaks wallpaper setting.",
+    "risk": "critical"
+  },
+  "com.miui.face": {
+    "name": "Face unlock",
+    "desc": "MIUI biometric face unlock.",
+    "risk": "high"
+  },
+  "com.miui.analytics": {
+    "name": "MIUI Analytics",
+    "desc": "Sends usage and diagnostic data to Xiaomi.",
+    "risk": "low"
+  },
+  "com.miui.msa.global": {
+    "name": "MSA",
+    "desc": "Xiaomi advertising and analytics framework used by system apps.",
+    "risk": "low"
+  },
+  "com.miui.systemAdSolution": {
+    "name": "System Ad Solution",
+    "desc": "Serves ads inside MIUI system apps.",
+    "risk": "low"
+  },
+  "com.miui.android.fashiongallery": {
+    "name": "Wallpaper Carousel",
+    "desc": "Lock-screen wallpaper slideshow with ads.",
+    "risk": "low"
+  },
+  "com.miui.bugreport": {
+    "name": "MIUI Bug Report",
+    "desc": "Captures logs and sends feedback to Xiaomi.",
+    "risk": "low"
+  },
+  "com.miui.miservice": {
+    "name": "Services & Feedback",
+    "desc": "Xiaomi support, feedback and service app.",
+    "risk": "low"
+  },
+  "com.miui.cleaner": {
+    "name": "Mi Cleaner",
+    "desc": "MIUI storage cleaning tool.",
+    "risk": "low"
+  },
+  "com.miui.cleanmaster": {
+    "name": "Clean Master",
+    "desc": "Older Xiaomi cleaner package with Cheetah Mobile heritage.",
+    "risk": "low"
+  },
+  "com.miui.klo.bugreport": {
+    "name": "KLO Bug Report",
+    "desc": "Collects app and system crashes and uploads them to Xiaomi.",
+    "risk": "low"
+  },
+  "com.miui.misightservice": {
+    "name": "MiSight",
+    "desc": "Telemetry and diagnostics collector that reports to Xiaomi.",
+    "risk": "low"
+  },
+  "com.miui.spock": {
+    "name": "Spock",
+    "desc": "Hidden analytics package that sends device details to Xiaomi.",
+    "risk": "low"
+  },
+  "com.miui.wmsvc": {
+    "name": "WMService",
+    "desc": "Background service with analytics and advertising ID access.",
+    "risk": "low"
+  },
+  "com.miui.cit": {
+    "name": "CIT",
+    "desc": "Hidden hardware test menu used by service centres.",
+    "risk": "low"
+  },
+  "com.miui.tv.analytics": {
+    "name": "TV Analytics",
+    "desc": "Analytics component for Xiaomi TV features.",
+    "risk": "low"
+  },
+  "com.miui.uireporter": {
+    "name": "UI Reporter",
+    "desc": "Hidden MIUI diagnostics and reporting component.",
+    "risk": "low"
+  },
+  "com.miui.voiceassist": {
+    "name": "Mi Voice Assistant",
+    "desc": "Xiaomi voice assistant.",
+    "risk": "low"
+  },
+  "com.miui.voicetrigger": {
+    "name": "Voice Trigger",
+    "desc": "Wake-word detection for the voice assistant.",
+    "risk": "low"
+  },
+  "com.miui.hybrid": {
+    "name": "Quick Apps",
+    "desc": "Xiaomi mini web-app engine.",
+    "risk": "low"
+  },
+  "com.miui.hybrid.accessory": {
+    "name": "Quick Apps Accessory",
+    "desc": "Add-on for Xiaomi Quick Apps.",
+    "risk": "low"
+  },
+  "com.miui.videoplayer": {
+    "name": "Mi Video",
+    "desc": "Xiaomi video player with ads and recommendations.",
+    "risk": "low"
+  },
+  "com.miui.video": {
+    "name": "Mi Video (legacy)",
+    "desc": "Older package name for Mi Video.",
+    "risk": "low"
+  },
+  "com.miui.player": {
+    "name": "Mi Music",
+    "desc": "Xiaomi music player with online content and ads.",
+    "risk": "low"
+  },
+  "com.miui.fm": {
+    "name": "FM Radio",
+    "desc": "FM radio app, needs wired headphones as antenna.",
+    "risk": "low"
+  },
+  "com.miui.fmservice": {
+    "name": "FM Radio Service",
+    "desc": "Background service used by the FM radio app.",
+    "risk": "low"
+  },
+  "com.xiaomi.mipicks": {
+    "name": "GetApps",
+    "desc": "Xiaomi app store. Can take over install prompts.",
+    "risk": "low"
+  },
+  "com.mi.globalbrowser": {
+    "name": "Mi Browser",
+    "desc": "Xiaomi browser with ads and telemetry.",
+    "risk": "low"
+  },
+  "com.mi.global.bbs": {
+    "name": "Mi Community",
+    "desc": "Xiaomi forum and community app.",
+    "risk": "low"
+  },
+  "com.mi.global.shop": {
+    "name": "Mi Store",
+    "desc": "Xiaomi online store app.",
+    "risk": "low"
+  },
+  "com.xiaomi.android.tvsetup.partnercustomizer": {
+    "name": "Setup Customizer",
+    "desc": "Installs partner apps during first-time setup.",
+    "risk": "low"
+  },
+  "com.miui.gallery": {
+    "name": "Mi Gallery",
+    "desc": "Xiaomi gallery. Removing breaks the 3-finger screenshot preview.",
+    "risk": "medium"
+  },
+  "com.miui.calculator": {
+    "name": "Calculator",
+    "desc": "MIUI calculator app.",
+    "risk": "low"
+  },
+  "com.miui.notes": {
+    "name": "Mi Notes",
+    "desc": "Xiaomi notes app.",
+    "risk": "low"
+  },
+  "com.miui.compass": {
+    "name": "Compass",
+    "desc": "MIUI compass app.",
+    "risk": "low"
+  },
+  "com.miui.weather2": {
+    "name": "Weather",
+    "desc": "MIUI weather app.",
+    "risk": "low"
+  },
+  "com.miui.screenrecorder": {
+    "name": "Screen Recorder",
+    "desc": "MIUI screen recording app.",
+    "risk": "low"
+  },
+  "com.miui.personalassistant": {
+    "name": "App Vault",
+    "desc": "Left-most home screen panel with shortcuts and ads.",
+    "risk": "low"
+  },
+  "com.miui.cloudservice": {
+    "name": "Mi Cloud",
+    "desc": "Xiaomi cloud sync. Removing also disables Find Device and cloud backup.",
+    "risk": "medium"
+  },
+  "com.miui.cloudbackup": {
+    "name": "Mi Cloud Backup",
+    "desc": "Backs up contacts, messages and settings to Xiaomi cloud.",
+    "risk": "medium"
+  },
+  "com.miui.huanji": {
+    "name": "Mi Mover",
+    "desc": "Transfers data from another phone.",
+    "risk": "low"
+  },
+  "com.miui.backup": {
+    "name": "Local Backup",
+    "desc": "MIUI local backup and restore tool.",
+    "risk": "low"
+  },
+  "com.xiaomi.midrop": {
+    "name": "ShareMe",
+    "desc": "Xiaomi file sharing app.",
+    "risk": "low"
+  },
+  "com.xiaomi.joyose": {
+    "name": "Joyose",
+    "desc": "Game and performance tuning service. Some Game Turbo features may stop working.",
+    "risk": "medium"
+  },
+  "com.miui.antispam": {
+    "name": "MIUI Antispam",
+    "desc": "Spam call and SMS filtering. Removing loses this protection.",
+    "risk": "medium"
+  },
+  "com.miui.extraphoto": {
+    "name": "Bokeh / Document mode",
+    "desc": "Extra camera modes such as document scanning.",
+    "risk": "low"
+  },
+  "com.miui.userguide": {
+    "name": "User Guide",
+    "desc": "Offline MIUI user guide.",
+    "risk": "low"
+  },
+  "com.miui.yellowpage": {
+    "name": "Yellow Pages",
+    "desc": "Caller and business directory data from Xiaomi partners.",
+    "risk": "low"
+  },
+  "com.miui.translationservice": {
+    "name": "Translation Service",
+    "desc": "MIUI text translation service.",
+    "risk": "low"
+  },
+  "com.miui.translation.kingsoft": {
+    "name": "Kingsoft Translation",
+    "desc": "Translation engine from Kingsoft.",
+    "risk": "low"
+  },
+  "com.miui.translation.xmcloud": {
+    "name": "Xiaomi Cloud Translation",
+    "desc": "Cloud translation engine.",
+    "risk": "low"
+  },
+  "com.miui.translation.youdao": {
+    "name": "Youdao Translation",
+    "desc": "Translation engine from Youdao.",
+    "risk": "low"
+  },
+  "com.miui.phrase": {
+    "name": "Frequent Phrases",
+    "desc": "Paste menu with saved phrases, linked to Mi Cloud.",
+    "risk": "low"
+  },
+  "com.miui.qr": {
+    "name": "QR Scanner",
+    "desc": "MIUI QR code scanner.",
+    "risk": "low"
+  },
+  "com.miui.touchassistant": {
+    "name": "Quick Ball",
+    "desc": "Floating shortcut ball.",
+    "risk": "low"
+  },
+  "com.miui.thirdappassistant": {
+    "name": "Third-party App Assistant",
+    "desc": "Helper for installing and managing third-party apps.",
+    "risk": "low"
+  },
+  "com.miui.vipservice": {
+    "name": "Mi VIP Service",
+    "desc": "Xiaomi customer support and VIP services.",
+    "risk": "low"
+  },
+  "com.miui.contentextension": {
+    "name": "Taplus",
+    "desc": "Long-press image and text analysis. Off by default.",
+    "risk": "low"
+  },
+  "com.miui.accessibility": {
+    "name": "Mi Ditto",
+    "desc": "Xiaomi accessibility and dictation service.",
+    "risk": "low"
+  },
+  "com.miui.miwallpaper.earth": {
+    "name": "Super Wallpaper Earth",
+    "desc": "Animated Earth live wallpaper, several hundred MB.",
+    "risk": "medium"
+  },
+  "com.miui.miwallpaper.mars": {
+    "name": "Super Wallpaper Mars",
+    "desc": "Animated Mars live wallpaper, several hundred MB.",
+    "risk": "medium"
+  },
+  "com.xiaomi.mirecycle": {
+    "name": "Mi Recycle",
+    "desc": "Device trade-in and recycling service inside Security app.",
+    "risk": "low"
+  },
+  "com.xiaomi.calendar": {
+    "name": "Mi Calendar",
+    "desc": "Xiaomi calendar app with cloud sync.",
+    "risk": "low"
+  },
+  "com.xiaomi.gamecenter": {
+    "name": "Mi Games",
+    "desc": "Xiaomi game store and launcher.",
+    "risk": "low"
+  },
+  "com.xiaomi.glgm": {
+    "name": "Xiaomi Games (legacy)",
+    "desc": "Older Xiaomi games package.",
+    "risk": "low"
+  },
+  "com.xiaomi.mirror": {
+    "name": "MIUI+",
+    "desc": "Mirrors the phone screen to a PC.",
+    "risk": "low"
+  },
+  "com.xiaomi.scanner": {
+    "name": "Mi Scanner",
+    "desc": "Xiaomi document and QR scanner with many permissions.",
+    "risk": "low"
+  },
+  "com.facebook.katana": {
+    "name": "Facebook",
+    "desc": "Preinstalled Facebook app.",
+    "risk": "low"
+  },
+  "com.facebook.appmanager": {
+    "name": "Facebook App Manager",
+    "desc": "Installs and updates Facebook apps in the background.",
+    "risk": "low"
+  },
+  "com.facebook.services": {
+    "name": "Facebook Services",
+    "desc": "Background services for Facebook apps.",
+    "risk": "low"
+  },
+  "com.facebook.system": {
+    "name": "Facebook System",
+    "desc": "Stub that installs the main Facebook app.",
+    "risk": "low"
+  },
+  "com.amazon.mShop.android.shopping": {
+    "name": "Amazon Shopping",
+    "desc": "Preinstalled Amazon store app.",
+    "risk": "low"
+  },
+  "com.amazon.appmanager": {
+    "name": "Amazon App Manager",
+    "desc": "Updates Amazon apps in the background.",
+    "risk": "low"
+  },
+  "com.netflix.mediaclient": {
+    "name": "Netflix",
+    "desc": "Preinstalled Netflix app.",
+    "risk": "low"
+  },
+  "com.spotify.music": {
+    "name": "Spotify",
+    "desc": "Preinstalled Spotify app.",
+    "risk": "low"
+  },
+  "com.linkedin.android": {
+    "name": "LinkedIn",
+    "desc": "Preinstalled LinkedIn app.",
+    "risk": "low"
+  },
+  "com.microsoft.appmanager": {
+    "name": "Link to Windows",
+    "desc": "Connects the phone to Windows.",
+    "risk": "low"
+  },
+  "com.microsoft.office.outlook": {
+    "name": "Outlook",
+    "desc": "Preinstalled Microsoft Outlook.",
+    "risk": "low"
+  },
+  "com.microsoft.office.word": {
+    "name": "Word",
+    "desc": "Preinstalled Microsoft Word.",
+    "risk": "low"
+  },
+  "com.microsoft.office.excel": {
+    "name": "Excel",
+    "desc": "Preinstalled Microsoft Excel.",
+    "risk": "low"
+  },
+  "com.microsoft.office.powerpoint": {
+    "name": "PowerPoint",
+    "desc": "Preinstalled Microsoft PowerPoint.",
+    "risk": "low"
+  },
+  "com.google.android.youtube": {
+    "name": "YouTube",
+    "desc": "YouTube app.",
+    "risk": "low"
+  },
+  "com.google.android.apps.youtube.music": {
+    "name": "YouTube Music",
+    "desc": "YouTube Music app.",
+    "risk": "low"
+  },
+  "com.google.android.apps.photos": {
+    "name": "Google Photos",
+    "desc": "Google photo gallery and backup.",
+    "risk": "low"
+  },
+  "com.google.android.apps.maps": {
+    "name": "Google Maps",
+    "desc": "Maps and navigation.",
+    "risk": "low"
+  },
+  "com.google.android.gm": {
+    "name": "Gmail",
+    "desc": "Google email client.",
+    "risk": "low"
+  },
+  "com.google.android.apps.docs": {
+    "name": "Google Drive",
+    "desc": "Google cloud storage.",
+    "risk": "low"
+  },
+  "com.google.android.apps.nbu.files": {
+    "name": "Files by Google",
+    "desc": "File manager by Google.",
+    "risk": "low"
+  },
+  "com.google.android.apps.wellbeing": {
+    "name": "Digital Wellbeing",
+    "desc": "Screen time tracking. Some Settings pages depend on it.",
+    "risk": "medium"
+  },
+  "com.google.android.videos": {
+    "name": "Google TV",
+    "desc": "Google TV and Play Movies app.",
+    "risk": "low"
+  },
+  "com.google.android.apps.subscriptions.red": {
+    "name": "Google One",
+    "desc": "Google One subscription and storage app.",
+    "risk": "low"
+  },
+  "com.google.android.apps.tachyon": {
+    "name": "Google Meet",
+    "desc": "Google Meet (formerly Duo) video calling.",
+    "risk": "low"
+  },
+  "com.sec.android.app.launcher": {
+    "name": "Samsung One UI Home",
+    "desc": "The home screen and app drawer.",
+    "risk": "critical"
+  },
+  "com.samsung.android.honeyboard": {
+    "name": "Samsung Keyboard",
+    "desc": "Default keyboard. Keep another keyboard installed before touching this.",
+    "risk": "critical"
+  },
+  "com.samsung.android.dialer": {
+    "name": "Samsung Phone",
+    "desc": "Dialer app.",
+    "risk": "critical"
+  },
+  "com.samsung.android.incallui": {
+    "name": "Samsung In-call UI",
+    "desc": "In-call screen.",
+    "risk": "critical"
+  },
+  "com.samsung.android.app.telephonyui": {
+    "name": "Samsung Telephony UI",
+    "desc": "Phone settings and SIM manager. Disabling breaks them.",
+    "risk": "critical"
+  },
+  "com.samsung.android.app.contacts": {
+    "name": "Samsung Contacts",
+    "desc": "Contacts app used by the Samsung dialer.",
+    "risk": "critical"
+  },
+  "com.sec.android.app.camera": {
+    "name": "Samsung Camera",
+    "desc": "Camera app.",
+    "risk": "critical"
+  },
+  "com.sec.android.app.clockpackage": {
+    "name": "Samsung Clock",
+    "desc": "Alarms, timer and stopwatch.",
+    "risk": "critical"
+  },
+  "com.samsung.android.MtpApplication": {
+    "name": "Samsung MTP",
+    "desc": "Lets the phone expose files over USB.",
+    "risk": "critical"
+  },
+  "com.samsung.android.app.spage": {
+    "name": "Samsung Free",
+    "desc": "Left-most home screen news and ads panel.",
+    "risk": "low"
+  },
+  "com.samsung.android.bixby.agent": {
+    "name": "Bixby Voice",
+    "desc": "Samsung Bixby voice assistant.",
+    "risk": "low"
+  },
+  "com.samsung.android.bixby.wakeup": {
+    "name": "Bixby Wakeup",
+    "desc": "Always-listening wake word for Bixby.",
+    "risk": "low"
+  },
+  "com.samsung.android.app.settings.bixby": {
+    "name": "Bixby Settings",
+    "desc": "Settings provider for Bixby.",
+    "risk": "low"
+  },
+  "com.samsung.android.bixby.agent.dummy": {
+    "name": "Bixby Voice stub",
+    "desc": "Placeholder for Bixby Voice.",
+    "risk": "low"
+  },
+  "com.samsung.android.bixby.es.globalaction": {
+    "name": "Bixby Global Action",
+    "desc": "Bixby global actions service.",
+    "risk": "low"
+  },
+  "com.samsung.android.bixby.plmsync": {
+    "name": "Bixby PLM Sync",
+    "desc": "Bixby sync service.",
+    "risk": "low"
+  },
+  "com.samsung.android.bixby.service": {
+    "name": "Bixby Service",
+    "desc": "Background Bixby service.",
+    "risk": "low"
+  },
+  "com.samsung.android.bixby.voiceinput": {
+    "name": "Bixby Voice Input",
+    "desc": "Voice input for Bixby.",
+    "risk": "low"
+  },
+  "com.samsung.android.bixbyvision.framework": {
+    "name": "Bixby Vision",
+    "desc": "Camera-based product and text recognition.",
+    "risk": "low"
+  },
+  "com.samsung.android.visionintelligence": {
+    "name": "Vision Intelligence",
+    "desc": "Image recognition engine used by Bixby Vision and Gallery.",
+    "risk": "low"
+  },
+  "com.samsung.android.app.tips": {
+    "name": "Samsung Tips",
+    "desc": "Tips and tutorial app.",
+    "risk": "low"
+  },
+  "com.samsung.android.game.gamehome": {
+    "name": "Game Launcher",
+    "desc": "Samsung game launcher.",
+    "risk": "low"
+  },
+  "com.samsung.android.game.gametools": {
+    "name": "Game Tools",
+    "desc": "In-game floating tools.",
+    "risk": "low"
+  },
+  "com.samsung.android.game.gos": {
+    "name": "Game Optimizing Service",
+    "desc": "Background game performance manager.",
+    "risk": "low"
+  },
+  "com.samsung.android.voc": {
+    "name": "Samsung Members",
+    "desc": "Support, diagnostics and community app.",
+    "risk": "low"
+  },
+  "com.samsung.android.mateagent": {
+    "name": "Samsung Members Agent",
+    "desc": "Background agent for Samsung Members.",
+    "risk": "low"
+  },
+  "com.samsung.android.app.reminder": {
+    "name": "Samsung Reminder",
+    "desc": "To-do and reminder app.",
+    "risk": "low"
+  },
+  "com.samsung.android.app.watchmanagerstub": {
+    "name": "Galaxy Wearable stub",
+    "desc": "Installs Galaxy Wearable for watches and buds.",
+    "risk": "low"
+  },
+  "com.samsung.android.arzone": {
+    "name": "AR Zone",
+    "desc": "Samsung augmented reality camera features.",
+    "risk": "low"
+  },
+  "com.samsung.android.app.social": {
+    "name": "Samsung Social",
+    "desc": "Samsung social sharing component.",
+    "risk": "low"
+  },
+  "com.samsung.android.smartswitchassistant": {
+    "name": "Smart Switch Agent",
+    "desc": "Background helper for Smart Switch transfers.",
+    "risk": "low"
+  },
+  "com.samsung.android.dqagent": {
+    "name": "Device Quality Agent",
+    "desc": "Diagnostics logger. Safe on most phones but may affect Samsung support logs.",
+    "risk": "medium"
+  },
+  "com.samsung.android.knox.analytics.uploader": {
+    "name": "Knox Analytics",
+    "desc": "Uploads Knox analytics data.",
+    "risk": "low"
+  },
+  "com.sec.android.app.chromecustomizations": {
+    "name": "Chrome Customisations",
+    "desc": "Samsung customisations for Chrome.",
+    "risk": "low"
+  },
+  "com.samsung.android.app.omcagent": {
+    "name": "OMC Agent",
+    "desc": "Installs recommended partner apps after setup.",
+    "risk": "low"
+  },
+  "com.samsung.android.app.notes": {
+    "name": "Samsung Notes",
+    "desc": "Samsung notes app.",
+    "risk": "low"
+  },
+  "com.samsung.android.calendar": {
+    "name": "Samsung Calendar",
+    "desc": "Samsung calendar app.",
+    "risk": "low"
+  },
+  "com.samsung.android.email.provider": {
+    "name": "Samsung Email",
+    "desc": "Samsung email client.",
+    "risk": "low"
+  },
+  "com.samsung.android.messaging": {
+    "name": "Samsung Messages",
+    "desc": "Default SMS app. Install another SMS app first if you remove this.",
+    "risk": "high"
+  },
+  "com.sec.android.app.sbrowser": {
+    "name": "Samsung Internet",
+    "desc": "Samsung web browser.",
+    "risk": "low"
+  },
+  "com.samsung.android.app.cocktailbarservice": {
+    "name": "Edge Panels",
+    "desc": "Edge screen panel service.",
+    "risk": "medium"
+  },
+  "com.samsung.android.app.appsedge": {
+    "name": "Apps Edge",
+    "desc": "Edge panel with favourite apps. May affect split-screen.",
+    "risk": "medium"
+  },
+  "com.samsung.android.app.taskedge": {
+    "name": "Task Edge",
+    "desc": "Edge panel with recent apps.",
+    "risk": "low"
+  },
+  "com.samsung.android.app.clipboardedge": {
+    "name": "Clipboard Edge",
+    "desc": "Edge panel for clipboard history.",
+    "risk": "low"
+  },
+  "com.samsung.android.app.sbrowseredge": {
+    "name": "Browser Edge",
+    "desc": "Edge panel for Samsung Internet.",
+    "risk": "low"
+  },
+  "com.samsung.android.aremoji": {
+    "name": "AR Emoji",
+    "desc": "Samsung AR Emoji avatars.",
+    "risk": "low"
+  },
+  "com.samsung.android.emoji": {
+    "name": "Samsung Emoji",
+    "desc": "Samsung emoji assets.",
+    "risk": "low"
+  },
+  "com.samsung.android.aremojieditor": {
+    "name": "AR Emoji Editor",
+    "desc": "Editor for AR Emoji.",
+    "risk": "low"
+  },
+  "com.samsung.android.app.aodservice": {
+    "name": "Always On Display",
+    "desc": "AOD and lock-screen clock. Disabling also hides the lock-screen clock.",
+    "risk": "medium"
+  },
+  "com.samsung.android.scloud": {
+    "name": "Samsung Cloud",
+    "desc": "Samsung cloud sync and backup.",
+    "risk": "medium"
+  },
+  "com.samsung.SMT": {
+    "name": "Samsung TTS",
+    "desc": "Text-to-speech engine. Apps that read text aloud need it.",
+    "risk": "medium"
+  },
+  "com.samsung.android.app.watchmanager": {
+    "name": "Galaxy Wearable",
+    "desc": "Companion app for Galaxy watches and buds.",
+    "risk": "low"
+  },
+  "com.samsung.android.app.camera.sticker.facear.preload": {
+    "name": "Camera AR Stickers",
+    "desc": "Preloaded face stickers for the camera.",
+    "risk": "low"
+  },
+  "com.samsung.android.app.camera.sticker.facearavatar.preload": {
+    "name": "Camera Avatar Stickers",
+    "desc": "Preloaded avatar stickers for the camera.",
+    "risk": "low"
+  },
+  "com.samsung.android.app.camera.sticker.stamp.preload": {
+    "name": "Camera Stamp Stickers",
+    "desc": "Preloaded stamp stickers for the camera.",
+    "risk": "low"
+  },
+  "com.samsung.android.app.memo": {
+    "name": "Samsung Memo",
+    "desc": "Legacy memo app replaced by Samsung Notes.",
+    "risk": "low"
+  },
+  "com.samsung.android.app.pinboard": {
+    "name": "Samsung Scrapbook",
+    "desc": "Legacy scrapbook feature.",
+    "risk": "low"
+  },
+  "com.samsung.android.app.simplesharing": {
+    "name": "Link Sharing",
+    "desc": "Shares large files through Samsung Cloud links.",
+    "risk": "medium"
+  },
+  "com.samsung.android.app.sketchbook": {
+    "name": "Keyboard Sketchbook",
+    "desc": "AI drawing extension for Samsung Keyboard.",
+    "risk": "low"
+  },
+  "com.samsung.android.app.parentalcare": {
+    "name": "Parental Care",
+    "desc": "Parental control and app blocking.",
+    "risk": "low"
+  },
+  "com.samsung.android.app.vrsetupwizardstub": {
+    "name": "Gear VR Setup",
+    "desc": "Old Gear VR setup stub.",
+    "risk": "low"
+  },
+  "com.samsung.android.app.earphonetypec": {
+    "name": "USB-C Earphone Support",
+    "desc": "Firmware updates for Samsung USB-C earphones.",
+    "risk": "low"
+  },
+  "com.samsung.android.app.ledcoverdream": {
+    "name": "LED Cover",
+    "desc": "Support for LED flip covers.",
+    "risk": "low"
+  },
+  "com.samsung.android.app.mirrorlink": {
+    "name": "MirrorLink",
+    "desc": "Connects the phone to compatible car head units.",
+    "risk": "low"
+  },
+  "com.samsung.android.app.filterinstaller": {
+    "name": "Filter Installer",
+    "desc": "Checks app compatibility during installation.",
+    "risk": "low"
+  },
+  "com.samsung.android.allshare.service.mediashare": {
+    "name": "AllShare / Smart View",
+    "desc": "Streams media to Samsung TVs. Smart View may still work via Nearby Service.",
+    "risk": "medium"
+  },
+  "com.samsung.android.beaconmanager": {
+    "name": "Beacon Manager",
+    "desc": "Nearby device scanning for Samsung accessories.",
+    "risk": "low"
+  },
+  "com.samsung.android.easysetup": {
+    "name": "Easy Setup",
+    "desc": "Nearby device setup for Samsung accessories.",
+    "risk": "low"
+  },
+  "com.samsung.android.fast": {
+    "name": "Secure Wi-Fi",
+    "desc": "Samsung VPN powered by McAfee.",
+    "risk": "medium"
+  },
+  "com.samsung.android.coreapps": {
+    "name": "Enhanced Features",
+    "desc": "Samsung enhanced messaging and profile sharing.",
+    "risk": "medium"
+  },
+  "com.samsung.android.da.daagent": {
+    "name": "Dual Messenger",
+    "desc": "Runs two accounts of the same messaging app.",
+    "risk": "low"
+  },
+  "com.samsung.android.deviceidservice": {
+    "name": "Device ID Service",
+    "desc": "Provides advertising and device identifiers to Samsung services.",
+    "risk": "medium"
+  },
+  "com.samsung.android.dsms": {
+    "name": "Diagnostics Service",
+    "desc": "Hidden diagnostics logging component.",
+    "risk": "medium"
+  },
+  "com.samsung.android.coldwalletservice": {
+    "name": "Blockchain Keystore",
+    "desc": "Stores cryptocurrency keys.",
+    "risk": "low"
+  },
+  "com.samsung.android.digitalkey": {
+    "name": "Digital Key",
+    "desc": "Phone-as-a-key support for cars and doors.",
+    "risk": "low"
+  },
+  "com.samsung.android.drivelink.stub": {
+    "name": "Car Mode Stub",
+    "desc": "Placeholder for car mode.",
+    "risk": "low"
+  },
+  "com.samsung.android.ardrawing": {
+    "name": "AR Doodles",
+    "desc": "Draw on faces and surroundings in AR Zone.",
+    "risk": "low"
+  },
+  "com.whatsapp": {
+    "name": "WhatsApp",
+    "desc": "WhatsApp messaging app.",
+    "risk": "low"
+  },
+  "com.instagram.android": {
+    "name": "Instagram",
+    "desc": "Instagram photo and video app.",
+    "risk": "low"
+  },
+  "com.telegram.messenger": {
+    "name": "Telegram",
+    "desc": "Telegram messaging app.",
+    "risk": "low"
+  },
+  "com.canva.editor": {
+    "name": "Canva",
+    "desc": "Graphic design and template app.",
+    "risk": "low"
+  },
+  "com.junkfood.seal": {
+    "name": "Seal",
+    "desc": "Open-source video and audio downloader.",
+    "risk": "low"
+  },
+  "com.shazam.android": {
+    "name": "Shazam",
+    "desc": "Music recognition app.",
+    "risk": "low"
+  },
+  "com.zhiliaoapp.musically": {
+    "name": "TikTok",
+    "desc": "Short-video social app.",
+    "risk": "low"
+  },
+  "com.kimcy929.screenrecorder": {
+    "name": "Screen Recorder",
+    "desc": "Third-party screen recorder.",
+    "risk": "low"
+  },
+  "com.facebook.orca": {
+    "name": "Messenger",
+    "desc": "Facebook Messenger chat app.",
+    "risk": "low"
+  },
+  "run.openbot.mobile": {
+    "name": "OpenBot",
+    "desc": "OpenBot robotics companion app.",
+    "risk": "low"
+  },
+  "com.reddit.frontpage": {
+    "name": "Reddit",
+    "desc": "Reddit client.",
+    "risk": "low"
+  },
+  "com.daraz.android": {
+    "name": "Daraz",
+    "desc": "Online shopping app.",
+    "risk": "low"
+  },
+  "com.pinterest": {
+    "name": "Pinterest",
+    "desc": "Image and idea discovery app.",
+    "risk": "low"
+  },
+  "com.maxmpz.audioplayer": {
+    "name": "Poweramp",
+    "desc": "Music player.",
+    "risk": "low"
+  },
+  "com.github.android": {
+    "name": "GitHub",
+    "desc": "GitHub mobile client.",
+    "risk": "low"
+  },
+  "org.schabi.newpipe": {
+    "name": "NewPipe",
+    "desc": "Open-source YouTube frontend.",
+    "risk": "low"
+  },
+  "com.f1soft.esewa": {
+    "name": "eSewa",
+    "desc": "Nepali digital wallet.",
+    "risk": "low"
+  },
+  "eu.kanade.tachiyomi.extension.en.mangareadersite": {
+    "name": "Tachiyomi: MangaReader",
+    "desc": "Manga source extension for Tachiyomi.",
+    "risk": "low"
+  },
+  "com.bipinrizal.docxzal": {
+    "name": "DocxZal",
+    "desc": "Your document tool app.",
+    "risk": "low"
+  },
+  "com.google.android.apps.bard": {
+    "name": "Gemini",
+    "desc": "Google Gemini AI assistant.",
+    "risk": "low"
+  },
+  "com.alightcreative.motion": {
+    "name": "Alight Motion",
+    "desc": "Motion graphics and video editing app.",
+    "risk": "low"
+  },
+  "com.yajtech.nagarikapp": {
+    "name": "Nagarik App",
+    "desc": "Nepali government services app.",
+    "risk": "low"
+  },
+  "com.khalti": {
+    "name": "Khalti",
+    "desc": "Nepali digital wallet.",
+    "risk": "low"
+  },
+  "com.spyou.watch_app": {
+    "name": "Spyou Watch",
+    "desc": "Companion watch app.",
+    "risk": "low"
+  },
+  "com.music.bitchord": {
+    "name": "Bitchord",
+    "desc": "Music app.",
+    "risk": "low"
+  },
+  "com.sec.penup": {
+    "name": "PENUP",
+    "desc": "Samsung drawing community app.",
+    "risk": "low"
+  },
+  "com.sec.android.app.voicenote": {
+    "name": "Voice Recorder",
+    "desc": "Samsung voice recorder.",
+    "risk": "low"
+  },
+  "com.samsung.android.filter.effect.antique": {
+    "name": "Antique filter",
+    "desc": "Samsung camera filter pack.",
+    "risk": "low"
+  },
+  "com.samsung.android.perf_z": {
+    "name": "Samsung Perf Z",
+    "desc": "Samsung performance component.",
+    "risk": "low"
+  },
+  "com.vpit.app": {
+    "name": "VPIT",
+    "desc": "Third-party app you installed.",
+    "risk": "low"
+  }
+}
