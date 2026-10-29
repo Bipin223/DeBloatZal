@@ -122,7 +122,7 @@ white primary action.
 **Header** — compact device line (model + OS), profile menu, refresh, reboot,
 and **minimize / maximize / close**. The window opens maximized to fill
 the screen; use the maximize button or double-click the titlebar to restore
-the 1280px window. `-Windowed` starts windowed.
+the 1280×720 (16:9) window. `-Windowed` starts windowed.
 
 **Summary** — one compact line, not five cards. Click any item to jump to that
 view:
@@ -187,7 +187,7 @@ instead of guessing — choose the right one in the profile menu.
 
 No phone handy? **`DeBloatZal.cmd -Demo`** opens the same window with sample
 Redmi 9C data. It cannot change anything. `-State removed` opens the Removed
-view directly; `-UserOnly` starts in My apps; `-Windowed` starts in a 1280px
+view directly; `-UserOnly` starts in My apps; `-Windowed` starts in a 1280×720
 window instead of filling the screen; `-Search insta` opens with a global
 search already filled in.
 

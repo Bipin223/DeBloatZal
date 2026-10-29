@@ -605,10 +605,16 @@ $script:Form = New-Object System.Windows.Forms.Form
 $script:Form.Text = 'DeBloatZal'
 $script:Form.FormBorderStyle = 'None'
 $work = [System.Windows.Forms.Screen]::PrimaryScreen.WorkingArea
-$formWidth = [Math]::Min(1280, [Math]::Max(1040, $work.Width - 48))
-$formHeight = [Math]::Min(840, [Math]::Max(700, $work.Height - 48))
+$formWidth = [Math]::Min(1280, $work.Width - 48)
+$formHeight = [int][Math]::Round($formWidth * 9 / 16)
+if ($formHeight -gt ($work.Height - 48)) {
+    $formHeight = $work.Height - 48
+    $formWidth = [int][Math]::Round($formHeight * 16 / 9)
+}
 $script:Form.Size = New-Object Drawing.Size($formWidth, $formHeight)
-$script:Form.MinimumSize = New-Object Drawing.Size([Math]::Min(1040, $formWidth), [Math]::Min(700, $formHeight))
+$minWidth = [Math]::Min(1040, $formWidth)
+$minHeight = [int][Math]::Round($minWidth * 9 / 16)
+$script:Form.MinimumSize = New-Object Drawing.Size($minWidth, $minHeight)
 $script:Form.StartPosition = 'CenterScreen'
 $script:Form.BackColor = [Drawing.Color]::FromArgb(0, 0, 0)
 $script:Form.Padding = New-Object System.Windows.Forms.Padding(0)
